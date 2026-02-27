@@ -12,7 +12,7 @@ import { SEO } from "astro-seo";
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
     <title>Zoid</title>
-    <SEO title="Zoid" description="Building software for humans." />
+    <SEO title="Zoid" description="Software for humans and computers" />
   </head>
   <body
     class="font-mono bg-neutral-950 antialiased text-neutral-50 flex flex-col justify-center items-center h-dvh"
@@ -23,24 +23,43 @@ import { SEO } from "astro-seo";
         <h1 class="font-bold text-2xl">Zoid</h1>
       </div>
     </a>
-    <h2 class="mb-6">Building software for humans</h2>
+    <h2 class="mb-6">Software for humans and computers</h2>
     <ul class="flex gap-2 mb-6">
       <li>
-        <a href="https://repeek.gg" class="hover:underline underline-offset-4"
+        <a href="https://repeek.gg" target="_blank" rel="noopener noreferrer" class="hover:underline underline-offset-4"
           >repeek.gg</a
         >
       </li>
       <li>•</li>
       <li>
-        <a href="https://meru.so" class="hover:underline underline-offset-4"
+        <a href="https://meru.so" target="_blank" rel="noopener noreferrer" class="hover:underline underline-offset-4"
           >meru.so</a
         >
       </li>
     </ul>
+    <ul class="flex gap-2 text-neutral-400">
+      <li>
+        <a href="https://x.com/timche_" target="_blank" rel="noopener noreferrer" class="hover:underline underline-offset-4"
+          >X</a
+        >
+      </li>
+      <li>•</li>
+      <li>
+        <a href="https://github.com/timche" target="_blank" rel="noopener noreferrer" class="hover:underline underline-offset-4"
+          >GitHub</a
+        >
+      </li>
+      <li>•</li>
+      <li>
+        <a href="https://linkedin.com/in/timche" target="_blank" rel="noopener noreferrer" class="hover:underline underline-offset-4"
+          >LinkedIn</a
+        >
+      </li>
+    </ul>
     <p class="text-neutral-400">
-      <a href="mailto:tim@zoid.sh" class="hover:underline underline-offset-4"
-        >tim@zoid.sh</a
-      >
-    </p>
+        <a href="mailto:tim@zoid.sh" target="_blank" rel="noopener noreferrer" class="hover:underline underline-offset-4"
+          >tim@zoid.sh</a
+        >
+      </p>
   </body>
 </html>
